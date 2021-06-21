@@ -177,6 +177,7 @@ val cryodist = Builder.start(loc, id)
                         .maxFluidOutputs(6)
                         .build())
     .withTexture(Textures.FROST_PROOF_CASING)
+    .withZoom(0.7f)
     .buildAndRegister() as Multiblock;
 
 id += 1;
@@ -380,6 +381,7 @@ val medium_microverse = Builder.start(loc, id)
             .build())
     .addDesign(infoBuilder.where('D', <metastate:chisel:diamond:3>).build())
     .addDesign(infoBuilder.where('D', <metastate:chisel:diamond:4>).build())
+    .withZoom(0.9f)
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .minInputs(2)
@@ -585,6 +587,7 @@ val large_microverse = Builder.start(loc, id)
             .build())
     .addDesign(infoBuilder.where('D', <metastate:chisel:diamond:3>).build())
     .addDesign(infoBuilder.where('D', <metastate:chisel:diamond:4>).build())
+    .withZoom(0.6f)
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .minInputs(2)
@@ -796,6 +799,7 @@ val oildrillingrig = Builder.start(loc, id)
                         .maxOutputs(0)
                         .build())
     .withTexture(Textures.SOLID_STEEL_CASING)
+    .withZoom(0.6f)
     .buildAndRegister() as Multiblock;
 
 id += 1;
@@ -865,6 +869,7 @@ val naquadahreactormk1 = Builder.start(loc, id)
             .where('E', MetaTileEntities.ENERGY_OUTPUT_HATCH[4], IFacing.east())
             .where('B', <metastate:extendedcrafting:trimmed:5>)
             .build())
+    .withZoom(0.9f)
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .minInputs(1)
@@ -941,6 +946,7 @@ val naquadahreactormk2 = Builder.start(loc,id)
             .where('A', MetaTileEntities.ITEM_EXPORT_BUS[1], IFacing.west())
             .where('E', MetaTileEntities.ENERGY_OUTPUT_HATCH[8], IFacing.east())
             .build())
+    .withZoom(0.75f)
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .minOutputs(1)
@@ -1175,6 +1181,7 @@ val lunarminingstation = Builder.start(loc, id)
             .where('O', MetaTileEntities.FLUID_EXPORT_HATCH[4], IFacing.east())
             .where('H', MetaTileEntities.ENERGY_INPUT_HATCH[3], IFacing.east())
             .build())
+    .withZoom(0.8f)
     .withRecipeMap(
         FactoryRecipeMap.start(loc)
                         .minInputs(1)
