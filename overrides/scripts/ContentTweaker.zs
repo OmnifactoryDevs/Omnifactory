@@ -212,10 +212,6 @@ var moondust = VanillaFactory.createItem("moondust");
 moondust.maxStackSize = 64;
 moondust.register();
 
-var pulsatingwire = VanillaFactory.createItem("pulsatingwire");
-pulsatingwire.maxStackSize = 64;
-pulsatingwire.register();
-
 var blazepowder = VanillaFactory.createItem("blazepowder");
 blazepowder.maxStackSize = 64;
 blazepowder.register();
@@ -241,10 +237,6 @@ block_dust.blockHardness = 0.4;
 block_dust.blockResistance = 0.4;
 block_dust.gravity = true;
 block_dust.register();
-
-var endstonedust = VanillaFactory.createItem("endstonedust");
-endstonedust.maxStackSize = 64;
-endstonedust.register();
 
 var knightslimeingot = VanillaFactory.createItem("knightslimeingot");
 knightslimeingot.maxStackSize = 64;
@@ -630,20 +622,10 @@ stellarcreationdata.rarity = "rare";
 stellarcreationdata.maxStackSize = 64;
 stellarcreationdata.register();
 
-var lairoftheclockworkkingdata = VanillaFactory.createItem("lairoftheclockworkkingdata");
-lairoftheclockworkkingdata.rarity = "epic";
-lairoftheclockworkkingdata.maxStackSize = 1;
-lairoftheclockworkkingdata.register();
-
 var lairofthechaosguardiandata = VanillaFactory.createItem("lairofthechaosguardiandata");
 lairofthechaosguardiandata.rarity = "epic";
 lairofthechaosguardiandata.maxStackSize = 1;
 lairofthechaosguardiandata.register();
-
-var sentientgear = VanillaFactory.createItem("sentientgear");
-sentientgear.rarity = "epic";
-sentientgear.maxStackSize = 64;
-sentientgear.register();
 
 var denseoilshale = VanillaFactory.createBlock("denseoilshale", <blockmaterial:rock>);
 denseoilshale.blockSoundType = <soundtype:stone>;

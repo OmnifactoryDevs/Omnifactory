@@ -2295,12 +2295,9 @@ recipes.addShapeless(<gregtech:meta_item_1:10237>, [<enderio:item_alloy_ingot:3>
 <ore:circuitUltimate>.add(<contenttweaker:crystalprocessorarray>);
 <ore:circuitSuperconductor>.add(<contenttweaker:crystalprocessormainframe>);
 
-
 //Misc
 <ore:lvcef>.add(<gregtech:machine:10661>);
 <ore:lvcef>.add(<gregtech:machine:10665>);
-<ore:wireGtSinglePulsatingIron>.add(<contenttweaker:pulsatingwire>);
-<ore:dustEndstone>.add(<contenttweaker:endstonedust>);
 
 //Removals
 <ore:craftingLensLime>.remove(<gregtech:meta_item_1:15219>);
@@ -2431,16 +2428,6 @@ recipes.addShapeless(<gregtech:meta_item_1:2065>, [<thermalfoundation:material:7
 
 //Thermal Coal Coke Decomposition
 recipes.addShapeless(<gregtech:meta_item_1:8357> * 9, [<thermalfoundation:storage_resource:1>]);
-
-// Temporary recipe to convert endstone dusts
-recipes.addShapeless(<ore:dustEndstone>.firstItem, [<contenttweaker:endstonedust>]);
-<contenttweaker:endstonedust>.addTooltip(format.red("This item is obsolete and will be removed in the next update."));
-<contenttweaker:endstonedust>.addTooltip(format.red("Please use the GregTech variant of Endstone Dust."));
-
-// Temporary recipe to convert pulsating iron wire that is probably unnecessary anyway.
-recipes.addShapeless(<ore:wireGtSinglePulsatingIron>.firstItem, [<contenttweaker:pulsatingwire>]);
-<contenttweaker:pulsatingwire>.addTooltip(format.red("This item is obsolete and will be removed in the next update."));
-<contenttweaker:pulsatingwire>.addTooltip(format.red("Please use the GregTech variant of Pulsating Iron Wire."));
 
 //neutronium plate exchange
 recipes.addShapeless("of_exchange_neutronium_plate",

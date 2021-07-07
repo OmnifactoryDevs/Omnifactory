@@ -210,11 +210,6 @@ makeShaped("of_elytra", <minecraft:elytra>,
 
 
 
-fluidextractor.recipeBuilder()
-    .inputs(<contenttweaker:sentientgear>)
-    .fluidOutputs([<liquid:tungsten_carbide> * 40320])
-    .duration(1000).EUt(3000).buildAndRegister();
-
 fusion_reactor.findRecipe(4096, [null],
     [<liquid:deuterium> * 125, <liquid:tritium> * 125]).remove();	
 

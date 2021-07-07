@@ -28,30 +28,6 @@ item.contenttweaker.stonewidgetdown.name=Stone Widget Part (Down Side)
 item.contenttweaker.woodwidgetleft.name=Wooden Widget Part (Left Side)
 item.contenttweaker.woodwidgetright.name=Wooden Widget Part (Right Side)
 
-item.contenttweaker.moteoflife.name=Mote of Life Essence
-item.contenttweaker.moteofnature.name=Mote of Nature Essence
-item.contenttweaker.moteoffire.name=Mote of Fire Essence
-item.contenttweaker.moteofearth.name=Mote of Earth Essence
-item.contenttweaker.moteofair.name=Mote of Air Essence
-item.contenttweaker.moteofwater.name=Mote of Water Essence
-
-item.contenttweaker.primalnature.name=Primal Nature Essence
-item.contenttweaker.primalfire.name=Primal Fire Essence
-item.contenttweaker.primalearth.name=Primal Earth Essence
-item.contenttweaker.primalair.name=Primal Air Essence
-item.contenttweaker.primalwater.name=Primal Water Essence
-item.contenttweaker.primallife.name=Primal Life Essence
-
-item.contenttweaker.essentianeedle.name=Essentia Needle
-item.contenttweaker.runedessentianeedle.name=Runed Essentia Needle
-item.contenttweaker.ornateessentianeedle.name=Ornate Essentia Needle
-item.contenttweaker.woodenmortar.name=Wooden Mortar
-item.contenttweaker.blockofleaddust.name=Block of Lead Dust
-
-fluid.quicksilver=Quicksilver
-fluid.aether=Aether
-fluid.brimstone=Brimstone
-fluid.aquafortis=Aqua Fortis
 
 item.contenttweaker.combinationcircuit.name=Primitive Processor
 item.contenttweaker.electronicprocessor.name=Electronic Processor
@@ -89,7 +65,6 @@ item.contenttweaker.t1guidance.name=Basic Microminer Guidance System
 item.contenttweaker.t1laser.name=Basic Mining Laser
 item.contenttweaker.t2laser.name=Reinforced Mining Laser
 item.contenttweaker.t2guidance.name=Advanced Microminer Guidance System
-item.contenttweaker.t3engine.name=Supercharged Thruster Jet
 item.contenttweaker.t3laser.name=Supercharged Laser Array
 
 item.contenttweaker.steelplating.name= Steel Heavy Plating
@@ -117,12 +92,10 @@ item.contenttweaker.smallgearextrudershape.name=Extruder Shape (Small Gear)
 item.contenttweaker.creativeportabletankmold.name=Mold (Creative Portable Tank)
 
 item.contenttweaker.conductivewire.name=Conductive Iron Wire
-item.contenttweaker.pulsatingwire.name=Pulsating Iron Wire
 item.contenttweaker.energeticwire.name=Energetic Alloy Wire
 item.contenttweaker.vibrantwire.name=Vibrant Alloy Wire
 
 item.contenttweaker.knightslimeingot.name=Knightslime Ingot
-item.contenttweaker.endstonedust.name=Endstone Dust
 item.contenttweaker.lapisarmorplate.name=Heavy Lapis Plate
 item.contenttweaker.carbonarmorplate.name=Heavy Carbon Plate
 item.contenttweaker.redstonearmorplate.name=Heavy Redstone Plate
@@ -195,18 +168,14 @@ item.contenttweaker.stabilizedthorium.name=Stabilized Thorium
 
 item.contenttweaker.compressedoctadiccapacitor.name=Compressed Octadic Capacitor
 item.contenttweaker.doublecompressedoctadiccapacitor.name=Double Compressed Octadic Capacitor
-item.contenttweaker.ultimate_circuit.name=Ultimate Circuit
 item.contenttweaker.ultimate_power_storage.name=Ultimate Power Storage
 item.contenttweaker.ultimate_generator.name=Ultimate Generator
-item.contenttweaker.ultimate_crafting_table.name=Ultimate Crafting Table
 item.contenttweaker.ultimate_gem.name=Ultimate Gem
 
 item.contenttweaker.dragonlairdata.name=Dragon Lair Data
 item.contenttweaker.witherrealmdata.name=Wither Realm Data
 tile.contenttweaker.denseoilshale.name=Dense Oilsands Ore
 item.contenttweaker.impossiblerealmdata.name=Impossible Realm Data
-item.contenttweaker.sentientgear.name=Sentient Gear Core
-item.contenttweaker.lairoftheclockworkkingdata.name=Lair Of The Clockwork King Data
 item.contenttweaker.lairofthechaosguardiandata.name=Lair Of The Chaos Guardian Data
 item.contenttweaker.universecreationdata.name=Universe Creation Data
 item.contenttweaker.stellarcreationdata.name=Stellar Creation Data
