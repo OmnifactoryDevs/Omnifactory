@@ -87,33 +87,26 @@
             }
         },
 
-        "changelog":
+        "update":
         {
-            "text" : "Changes",
+            "text" : "Update Notes",
             "posX" : 125,
-            "posY" : 2,
+            "posY" : 26,
             "width" : 120,
             "height" : 20,
             "alignment" : "left_center",
-            "wrappedButton" : 401
-        },
-
-        "reportbug":
-        {
-            "text" : "Issues",
-            "posX" : 4,
-            "posY" : 2,
-            "width" : 120,
-            "height" : 20,
-            "alignment" : "left_center",
-            "wrappedButton" : 402
+            "action" :
+            {
+                "type" : "openLink",
+                "link" : "https://github.com/OmnifactoryDevs/Omnifactory/blob/dev/UPDATENOTES.md"
+            }
         },
         "discord":
         {
             "text" : "Join Us On Discord!",
             "posX" : 4,
             "posY" : 26,
-            "width" : 240,
+            "width" : 120,
             "height" : 20,
             "alignment" : "left_center",
             "action" :
