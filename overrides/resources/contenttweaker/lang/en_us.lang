@@ -229,3 +229,6 @@ item.contenttweaker.hand_framing_tool.desc3=To do this, the tool itself needs to
 item.contenttweaker.hand_framing_tool.desc4=Then, once the tool is framed, right clicking any drawers in-world will frame them.
 item.contenttweaker.hand_framing_tool.desc5=Optionally, the tool can be filled with sticks using the crafting table recipe. Up to a stack of sticks will be consumed from each slot.
 item.contenttweaker.hand_framing_tool.desc6=The tool can then be used to convert existing unframed drawers into framed drawers, consuming 8 sticks to do so.
+
+tile.contenttweaker.simulation_casing.name=Naquadah-Plated Dark Steel Machine Casing
+tile.contenttweaker.simulation_casing_2.name=Naquadah Casing

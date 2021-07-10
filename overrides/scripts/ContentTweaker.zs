@@ -665,6 +665,8 @@ microverse_casing.register();
 var microverse_vent = VanillaFactory.createBlock("microverse_vent", <blockmaterial:iron>);
 microverse_vent.register();
 
+//Smores
+
 var smingots as string[] = [
     "eightsmore",
     "sixteensmore",
@@ -703,3 +705,9 @@ for smingot in smingots {
 
     foodRep.register();
 }
+
+var simulation_casing = VanillaFactory.createBlock("simulation_casing", <blockmaterial:iron>);
+simulation_casing.register();
+
+var simulation_casing_2 = VanillaFactory.createBlock("simulation_casing_2", <blockmaterial:iron>);
+simulation_casing_2.register();
