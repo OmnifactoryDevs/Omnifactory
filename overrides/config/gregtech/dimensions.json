@@ -15,6 +15,10 @@
     {
       "dimID": 111,
       "dimName": "Lost Cities"
+    },
+    {
+      "dimID": 100,
+      "dimName": "Moon"
     }
   ]
 }
