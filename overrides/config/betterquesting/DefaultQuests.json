@@ -30143,7 +30143,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "An §3Autoclave§r is a machine that uses liquids (usually water) to polish stones, carve gems into lenses, infuse gems with special liquids, and crystallize various dusts.\n\nYou\u0027ll need an Autoclave for many recipes, but right now you want it to make §6Certus Quartz Crystals§r for §bApplied Energistics§r out of the §bGregTech§r §6Certus Quartz§r and its dust you get from mining and ore processing.",
+          "desc:8": "An §3Autoclave§r is a machine that uses a liquid under pressure (usually water as steam) to polish stones, carve gems into lenses, infuse gems with special liquids, and crystallize various dusts.\n\nYou\u0027ll need an Autoclave for many recipes, but right now you want it to make §6Certus Quartz Crystals§r for §bApplied Energistics§r out of the §bGregTech§r §6Certus Quartz§r and its dust you get from mining and ore processing.",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
