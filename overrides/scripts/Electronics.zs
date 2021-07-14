@@ -146,9 +146,11 @@ recipes.addShaped(<contenttweaker:combinationcircuit>, [
 	[<ore:plateWroughtIron>, <metaitem:circuit.basic>, <ore:cableGtSingleRedAlloy>], 
 	[<metaitem:circuit.basic>, <metaitem:component.diode>, <metaitem:circuit.basic>], 
 	[<ore:cableGtSingleRedAlloy>, <metaitem:circuit.basic>, <ore:plateWroughtIron>]]);
-	
-	
-	
+
+//Diode
+assembler.findRecipe(48, [<gregtech:meta_item_2:16087> * 4, <gregtech:meta_item_1:1025>], [<liquid:plastic> * 288]).remove();
+assembler.recipeBuilder().inputs([<gregtech:meta_item_2:16189> *4, <gregtech:meta_item_1:1025>]).outputs([<gregtech:meta_item_2:32451> * 16]).duration(40).EUt(256).buildAndRegister();
+
 //Electronic Processor	
 
 <contenttweaker:electronicprocessor>.addTooltip(format.aqua(format.italic("This is the second Tier Two circuit.")));
