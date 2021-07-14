@@ -1053,6 +1053,58 @@ assembler.recipeBuilder()
 	.EUt(100)
 	.buildAndRegister();
 
+//Bipropellant engine
+recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
+makeShaped("ar_biprop_engine",
+	<advancedrocketry:bipropellantrocketmotor>, [
+		" S ",
+		"STS",
+		"RRR",
+	], {
+		S: <contenttweaker:steelplating>,
+		R: <simplyjetpacks:metaitemmods:7>,
+		T: hardenedtankIng
+	});
+
+//Advanced Bipropellant engine
+recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
+makeShaped("ar_advanced_biprop_engine",
+	<advancedrocketry:advbipropellantrocketmotor>, [
+		" S ",
+		"STS",
+		"RRR",
+	], {
+		S: <contenttweaker:tungstencarbideplating>,
+		R: <simplyjetpacks:metaitemmods:8>,
+		T: reinforcedtankIng
+	});
+
+//Bipropellant Fuel Tank
+recipes.remove(<advancedrocketry:bipropellantfueltank>);
+makeShaped("ar_biprop_fuel_tank",
+	<advancedrocketry:bipropellantfueltank>, [
+		"PNP",
+		"PTP",
+		"P P",
+	], {
+		P: <metaitem:plateStainlessSteel>,
+		N: <ore:pipeLargeStainlessSteel>,
+		T: reinforcedtankIng
+	});
+
+//Oxidizer Tank
+recipes.remove(<advancedrocketry:oxidizerfueltank>);
+makeShaped("ar_oxidizer_tank",
+	<advancedrocketry:oxidizerfueltank>, [
+		"P P",
+		"PTP",
+		"PNP",
+	], {
+		P: <metaitem:plateStainlessSteel>,
+		N: <ore:pipeLargeStainlessSteel>,
+		T: reinforcedtankIng
+	});
+
 /*
 
   Removals
@@ -1066,6 +1118,9 @@ mods.jei.JEI.removeAndHide(<advancedrocketry:landingfloat>); // Landing Float
 mods.jei.JEI.removeAndHide(<advancedrocketry:airlock_door>); // Airlock Door (Technical Block)
 mods.jei.JEI.removeAndHide(<advancedrocketry:lightsource>);  // Light source (Technical Block)
 mods.jei.JEI.removeAndHide(<advancedrocketry:astrobed>);     // Astrobed     (Technical Block)
+
+//AR Rocket fuel, unusable
+mods.jei.JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: "rocketfuel", Amount: 1000}));
 
 // Various unused satellite sensors
 mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteprimaryfunction:2>);
