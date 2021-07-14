@@ -6,6 +6,9 @@ import scripts.CommonVars.makeExtremeRecipe5 as makeExtremeRecipe5;
 import scripts.CommonVars.makeExtremeRecipe7 as makeExtremeRecipe7;
 import scripts.CommonVars.makeExtremeRecipe9 as makeExtremeRecipe9;
 
+<extendedcrafting:frame>.displayName = "Black Steel Frame";
+<extendedcrafting:lamp>.displayName = "Black Steel Lamp";
+
 fluid_extractor.recipeBuilder()
     .inputs([<ore:dustCryotheum>])
     .fluidOutputs([<liquid:cryotheum> * 250])

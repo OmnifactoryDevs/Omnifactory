@@ -4,6 +4,14 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.data.IData;
 import scripts.CommonVars.makeShaped as makeShaped;
 
+//EV Electrolyzer
+<gregtech:machine:243>.displayName = "Advanced Electrolyzer III";
+<gregtech:machine:243>.addTooltip("Molecular Disintegrator E-4904");
+
+//EV Air Collector
+<gregtech:machine:980>.displayName = "Advanced Air Collector III";
+<gregtech:machine:980>.addTooltip("Atmosphere Collector III");
+
 recipes.addShapeless(<appliedenergistics2:network_tool>, [<ore:itemIlluminatedPanel>, <actuallyadditions:item_laser_wrench>]);
 
 furnace.addRecipe(<enderio:block_fused_glass>, <minecraft:glass>, 0.0);
