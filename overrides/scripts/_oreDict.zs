@@ -2121,7 +2121,11 @@ mods.jei.JEI.removeAndHide(<lumberjack:infinity_lumberaxe>);
 mods.jei.JEI.removeAndHide(<lumberjack:endsteel_lumberaxe>);
 mods.jei.JEI.removeAndHide(<lumberjack:stellaralloy_lumberaxe>);
 
-
+//Stoneblock Utils Removal
+mods.jei.JEI.removeAndHide(<stoneblockutilities:hand>);
+mods.jei.JEI.removeAndHide(<stoneblockutilities:stonepebble>);
+mods.jei.JEI.removeAndHide(<stoneblockutilities:crook_stone>);
+recipes.removeByRecipeName("stoneblockutilities:cobble");
 
 //Ingots to Proper Ingots
 recipes.addShapeless(<thermalfoundation:material:167>, [<gregtech:meta_item_1:10708>]);

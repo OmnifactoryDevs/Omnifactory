@@ -1,0 +1,21 @@
+{
+  "active_render": true,
+  "handDrops": [
+    {
+      "block": "minecraft:stone:0",
+      "drop": "exnihilocreatio:item_pebble:0",
+      "drop_with": 4,
+      "drop_without": 2,
+      "chance": 5,
+      "speed": 3.5
+    }
+  ],
+  "crookDrops": [
+    {
+      "block": "minecraft:dirt:0",
+      "randomDrop": false,
+      "randomDropAmount": 1,
+      "drops": []
+    }
+  ]
+}
