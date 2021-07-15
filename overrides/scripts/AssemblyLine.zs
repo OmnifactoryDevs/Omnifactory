@@ -161,11 +161,11 @@ assembly_line.recipeBuilder()
 			<gregtech:meta_item_1:12302> * 6, //HSS-G Plate
 			<gregtech:meta_item_1:18302> * 4, //HSS-G Ring
 			<gregtech:meta_item_1:14302> * 4, //HSS-G Rod
-			<gregtech:cable:5200> * 4, //1x Yttrium Barium Cuprate Cable
+			<gregtech:cable:6200> * 2, //2x Yttrium Barium Cuprate Cable
 			<gregtech:meta_item_2:17302> * 2, //HSS-G Small Gear
 			<gregtech:meta_item_1:32606>, //Electric Motor (LuV)
 			<gregtech:meta_item_2:26302>) //HSS-G Gear
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+//	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 	.fluidInputs(<liquid:soldering_alloy> * 144, <liquid:lubricant> * 250)
 	.outputs(<gregtech:meta_item_1:32645>)
 	.duration(600).EUt(15360).buildAndRegister();
@@ -188,7 +188,7 @@ assembly_line.recipeBuilder()
 			<gregtech:meta_item_1:32606> * 2, //Electric Motor (LuV)
 			<gregtech:meta_item_1:12302> * 2, //HSS-G Plate
 			<gregtech:cable:5200> * 2) //1x Yttrium Barium Cuprate Cable
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+//	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 	.fluidInputs(<liquid:styrene_butadiene_rubber> * 1440, <liquid:lubricant> * 250)
 	.outputs(<gregtech:meta_item_1:32635>)
 	.duration(600).EUt(15360).buildAndRegister();
@@ -372,11 +372,11 @@ assembly_line.recipeBuilder()
 			<gregtech:meta_item_1:12303> * 6, //HSS-E Plate
 			<gregtech:meta_item_1:18303> * 4, //HSS-E Ring
 			<gregtech:meta_item_1:14303> * 4, //HSS-E Rod
-			<gregtech:cable:7195> * 4, //4x Vanadium-Gallium Cable
+			<gregtech:cable:8195> * 2, //8x Vanadium-Gallium Cable
 			<gregtech:meta_item_2:17303> * 2, //HSS-E Small Gear
 			<gregtech:meta_item_1:32607>, //Electric Motor (ZPM)
 			<gregtech:meta_item_2:26303>) //HSS-E Gear
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+//	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
 	.fluidInputs(<liquid:lubricant> * 750, <liquid:soldering_alloy> * 288)
 	.outputs(<gregtech:meta_item_1:32646>)
 	.duration(600).EUt(61440).buildAndRegister();
@@ -398,7 +398,7 @@ assembly_line.recipeBuilder()
 			<gregtech:meta_item_1:32607> * 2, //Electric Motor (ZPM)
 			<gregtech:meta_item_1:12303> * 2, //HSS-E Plate
 			<gregtech:cable:7195> * 2) //4x Vanadium-Gallium Cable
-	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+//	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
 	.fluidInputs(<liquid:styrene_butadiene_rubber> * 2880, <liquid:lubricant> * 750)
 	.outputs(<gregtech:meta_item_1:32636>)
 	.duration(600).EUt(61440).buildAndRegister();
@@ -497,11 +497,11 @@ assembly_line.recipeBuilder()
             <ore:plateNeutronium> * 6,
             <gregtech:meta_item_1:18972> * 4, //Neutronium Ring
             <gregtech:meta_item_1:14972> * 4, //Neutronium Rod
-            <gregtech:cable:7135> * 4, //4x Niobium-Titanium Cable
+            <gregtech:cable:8135> * 2, //8x Niobium-Titanium Cable
             <gregtech:meta_item_2:17972> * 2, //Small Neutronium Gear
             <gregtech:meta_item_1:32608>, // Electric Motor (UV)
             <gregtech:meta_item_2:26972>) //Neutronium Gear
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
+//	.notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 2}))
     .fluidInputs(<liquid:lubricant> * 2000, <liquid:soldering_alloy> * 1296)
     .outputs(<gregtech:meta_item_1:32647>)
     .duration(600).EUt(245760).buildAndRegister();
@@ -523,7 +523,7 @@ assembly_line.recipeBuilder()
             <gregtech:meta_item_1:32608> * 2, //Electric Motor (UV)
             <ore:plateNeutronium> * 2,
             <gregtech:cable:7135> * 2) //4x Niobium-Titanium Cables
-    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
+//    .notConsumable(<gregtech:meta_item_1:32766>.withTag({Configuration: 1}))
     .fluidInputs(<liquid:lubricant> * 2000, <liquid:styrene_butadiene_rubber> * 2880)
     .outputs(<gregtech:meta_item_1:32637>)
     .duration(600).EUt(245760).buildAndRegister();
